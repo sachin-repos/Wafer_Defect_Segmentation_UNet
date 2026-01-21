@@ -14,9 +14,13 @@ Unlike traditional supervised learning which relies on massive static datasets, 
 The model successfully disentangles process defects from sensor noise:
 
 ![Segmentation Result](segmentation_result.png)
-*(Left: Noisy Input | Center: U-Net Prediction | Right: Overlay)*
+<br>
+*Fig 1: **Left**: Noisy Input (Simulated Scan) | **Right**: U-Net Prediction (Defect Localized)*
+
+---
 
 ## 🛠️ How to Run
-1. **Install Dependencies:**
-   ```bash
-   pip install -r requirements.txt
+
+### 1. Install Dependencies
+```bash
+pip install -r requirements.txt
